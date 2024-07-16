@@ -1,5 +1,5 @@
 homepage: "https://tyviso.com"
-documentation: "https://tyviso.com/gtm-documentation"
+documentation: "https://tyviso.com/integration/"
 versions:
   - sha: 38c69336beaea0ee2babedbbb5d52055300fce23
     changeNotes: Add categories.
