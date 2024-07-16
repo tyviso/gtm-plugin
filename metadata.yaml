@@ -1,7 +1,7 @@
 homepage: "https://tyviso.com"
 documentation: "https://tyviso.com/gtm-documentation"
 versions:
-  - sha: f2c15c3023599f95761d30529a1aa1b6de7642ea
+  - sha: e1a4732e205230ba55c402768d90eef5c41b9c1e
     changeNotes: Change template.
   - sha: a9bfebadbec54dd3cfbd4a2b80cc47444cdbb1dd
     changeNotes: Initial release.
