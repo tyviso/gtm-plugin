@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Tyviso",
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING", "ANALYTICS"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
