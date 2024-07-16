@@ -1,6 +1,8 @@
 homepage: "https://tyviso.com"
 documentation: "https://tyviso.com/gtm-documentation"
 versions:
+  - sha: 38c69336beaea0ee2babedbbb5d52055300fce23
+    changeNotes: Add categories.
   - sha: f9b7fa409465f09f93a34d96abebc293d3a660f2
     changeNotes: Change name and description.
   - sha: e1a4732e205230ba55c402768d90eef5c41b9c1e
