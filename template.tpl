@@ -46,18 +46,11 @@ const injectScript = require('injectScript');
 
 const partnerId = data.partnerId;
 
-if (partnerId) {
-  // `https://sitetag.tyviso.com/${partnerId}.js`
-  const url = 'https://sitetag.tyviso.com/' + partnerId + '.js';
-  if (queryPermission('inject_script', url)) {
-    injectScript(url, () => {}, () => {});
-    data.gtmOnSuccess();
-  } else {
-    data.gtmOnFailure();
-  }
-} else {
-    data.gtmOnSuccess();
-  }
+const url = 'https://sitetag.tyviso.com/' + partnerId + '.js';
+
+if (queryPermission('inject_script', url)) {
+  injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
+}
 
 
 ___WEB_PERMISSIONS___
