@@ -1,6 +1,8 @@
 homepage: "https://tyviso.com"
 documentation: "https://tyviso.com/integration/"
 versions:
+  - sha: 37db0050db1dcf985953db08375f7c4d2ca8a243
+    changeNotes: change permission js.
   - sha: cb4ff88fe9015657fb39d127742d260df9935827
     changeNotes: change js.
   - sha: 38c69336beaea0ee2babedbbb5d52055300fce23
